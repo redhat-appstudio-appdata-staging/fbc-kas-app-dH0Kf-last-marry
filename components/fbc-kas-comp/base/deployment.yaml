@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: fbc-kas-comp
     spec:
       containers:
-      - image: fbc:latest
+      - image: quay.io/redhat-user-workloads-stage/dev-release-team-tenant/fbc-kas-app/fbc-kas-comp@sha256:d30fe66e499021c7aee27f0a892b990b7f77b7cb81995c83f21ca9b6a95bde3b
         name: fbc
         ports:
         - containerPort: 50051
